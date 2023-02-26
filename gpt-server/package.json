@@ -1,0 +1,25 @@
+{
+  "name": "chat-gpt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon --watch src --ext js --exec npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "chatgpt": "^4.7.2",
+    "mongoose": "^6.9.1",
+    "node-fetch": "^3.3.0",
+    "redis": "^4.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
